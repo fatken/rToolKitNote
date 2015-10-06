@@ -1,0 +1,46 @@
+first time configuration:
+setup git username:
+git config --global user.name "name"
+setup git email:
+git config --global user.email "your email"
+=======
+
+Initialize git repository in pwd:
+git init
+Point local repo to the remote github repo(add origin):
+git remote add origin "URL"
+====
+after local modification:
+ADDING:
+letting git know changes to be tracked:
+git add . :add all new files
+git add -u : updates tracking for files that changed names or were deleted
+git add -A : does both of the previous
+git add "filename" : tracks the changes to a specified file
+
+COMMITING:changes that you want to commit to be saved as an intermediate version.
+git commit -m "message" : useful description of what is done. This only
+ updates the local repo.
+=====
+pushing local commits to update on the remote github:
+git push
+
+pushing files to the origin url, into the master branch:
+git push -u origin master
+====
+pulling files from remote to local:
+git pull
+====
+checking log:(see commits made)
+git log
+====
+checking status:(for example checking if theres untracked files:)
+git status
+======
+create a new branch:
+git checkout -b [branchname]
+check current branch:
+git branch
+switch branch:
+git checkout [branchname]
+

@@ -1,0 +1,39 @@
+obtain pachage from CRAN(comprehensive R Archive Network):
+a<- available.packages()
+head((rownames(a),3)
+##show the names of the first few packages
+
+======
+install R package from CRAN
+install.packages("packageName")
+##any package dependencies will also be downloaded and installed
+install multiple packages:
+install.packages(c("packageName","packageName","packageName"))
+
+=========================
+install packages from Bioconductor
+get basic installer and basic set of R packages(will install multiple packages)
+
+source("http://bioconductor.org/biocLite.R")
+bioLite("packageName")
+
+
+
+##after installation, packages need to be loaded to be ready to use(so that you have access to the functionality in the package):
+##using library() function
+library(ggplot2)
+##dont quote
+
+
+```{r}
+
+```
+##after package loaded, functions exported by that package will be attached to the top of the search() list (after workspace)
+to check all the packages loaded:
+search()
+
+
+
+
+
+
