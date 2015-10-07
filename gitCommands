@@ -9,6 +9,10 @@ Initialize git repository in pwd:
 git init
 Point local repo to the remote github repo(add origin):
 git remote add origin "URL"
+Pulling stuff from github to local:
+git pull origin master
+
+
 ====
 after local modification:
 ADDING:
