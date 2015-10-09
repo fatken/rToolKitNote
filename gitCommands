@@ -1,3 +1,8 @@
++++++++++++++++
+get into Google Drive Dir and use Git!!!:
+cd Google\ Drive
++++++++++++++++
+
 first time configuration:
 setup git username:
 git config --global user.name "name"
